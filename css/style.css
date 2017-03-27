@@ -1,3 +1,4 @@
+/*============Global================*/
 body{
   font-family:Roboto, sans-serif;
   background-color:#f0f0f0;
@@ -44,6 +45,7 @@ input{
   width:278px;
   height:20px;
 }
+/*============Gender================*/
 input[type="radio" i]{
   margin: 3px 3px 0px 5px;
   width:17px;
@@ -53,7 +55,7 @@ input[type="radio" i]+label{
   margin-right:20px;
   width:50px;
 }
-
+/*============Birthdate================*/
 input.date{
     width:47px;
 }
@@ -109,6 +111,9 @@ input[type="checkbox" i]{
   height:18px;
   width:18px;
 }
+.sub-checkbox label{
+  padding-left:8px;
+}
 /*==============Captcha================*/
 .captcha{
   display:flex;
@@ -116,17 +121,15 @@ input[type="checkbox" i]{
 .captcha-label{
   width:100%;
 }
-button{
-  float:right;
-  margin-top:15px;
-}
-.sub-checkbox label{
-  padding-left:8px;
-}
 .captcha input{
   margin-left:10px;
 }
 .captcha img{
   height:24px;
   border:1px solid #e7e7e7;
+}
+/*==============Submit================*/
+button{
+  float:right;
+  margin-top:15px;
 }
