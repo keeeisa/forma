@@ -1,0 +1,132 @@
+body{
+  font-family:Roboto, sans-serif;
+  background-color:#f0f0f0;
+  color:#333;
+}
+input[placeholder]{
+  padding-left:0px;
+}
+h1{
+  font-size:250%;
+  font-weight:400;
+  color:#333;
+  padding-top:50px;
+}
+h2{
+  font-size:100%;
+  font-weight:400;
+  padding-top:20px;
+}
+.form-container{
+  max-width:525px;
+  margin:0 auto;
+  /*background-color: #1565C0;*/
+}
+form{
+  background-color:#e7e7e7;
+  padding:5px 23px 53px;
+  border-radius:10px;
+}
+label, .label{
+  width:135px;;
+  display:inline-block;
+  font-weight:400;
+  font-size:14px;
+  vertical-align:top;
+  padding-top:4px;
+}
+fieldset{
+  border:none;
+  background-color:#f0f0f0;
+  padding:8px 25px;
+}
+input{
+  width:278px;
+  height:20px;
+}
+input[type="radio" i]{
+  margin: 3px 3px 0px 5px;
+  width:17px;
+  height:17px;
+}
+input[type="radio" i]+label{
+  margin-right:20px;
+  width:50px;
+}
+
+input.date{
+    width:47px;
+}
+.label{
+  padding-top:8px;
+}
+.gender{
+  padding-top:4px;
+}
+/*.birthday label{
+  display:inline-block;
+  font-size:11px;
+  color:grey;
+  width:40px;
+}*/
+select{
+  height:26px;
+  width:100px;
+}
+.year input{
+  width:100px;
+}
+.date{
+  width:54px;
+  font-size:11px;
+  color:grey;
+  height:20px;
+  }
+.month{
+  width:103px;
+  font-size:11px;
+  color:grey;
+}
+.year{
+  width:104px;
+  height:20px;
+  font-size:11px;
+  color:grey;
+}
+.year input{
+  height:20px;}
+/*============Additional================*/
+.comments{
+  display:block;
+  padding-bottom: 5px;
+}
+textarea{
+  width:97%;
+  height:150px;
+}
+/*============Subscribe================*/
+input[type="checkbox" i]{
+  height:18px;
+  width:18px;
+}
+/*==============Captcha================*/
+.captcha{
+  display:flex;
+}
+.captcha-label{
+  width:100%;
+}
+button{
+  float:right;
+  margin-top:15px;
+}
+.sub-checkbox label{
+  padding-left:8px;
+}
+.captcha input{
+  margin-left:10px;
+}
+.captcha img{
+  height:24px;
+  border:1px solid #e7e7e7;
+}

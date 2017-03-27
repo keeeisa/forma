@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>title</title>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js">
+    </script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <script src="js/script.js">
+    </script>
+  </head>
+  <body>
+
+    <div class="form-container">
+      <h1>Registration</h1>
+      <form action="">
+        <h2>Your account</h2>
+        <fieldset>
+          <p><label for="username">Username</label><input type="email" id="username"></p>
+          <p><label for="password">Password</label><input type="password" id="password"></p>
+          <p><label for="repeat-password">Repeat Password</label><input type="password" id="repeat-password"></p>
+          <p><label for="email">E-mail</label><input type="email" id="email" placeholder="example@example.com"></p>
+          <p><label for="file">Profile photo</label><input type="file" id="file"></p>
+        </fieldset>
+        <h2>Personal Data</h2>
+        <fieldset>
+          <p><label for="name">First Name</label><input type="text" id="name" disabled></p>
+          <p><label for="lname">Last Name</label><input type="text" id="lname"></p>
+          <p><span class="label gender">Gender</span>
+            <input type="radio" name="gender" id="male" value="m" checked>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" value="f" id="female">
+            <label for="female">Female</label>
+          </p>
+          <p ><span class="label ">Birthdate</span>
+            <label for="number" class="date"><input type="number" id="number" class="date" max="31" min="0">day</label>
+            <label for="month" class="month">
+              <select id="month" name="month">
+                <option value="January">January</option>
+                <option value="February">February</option>
+                <option value="March">March</option>
+                <option value="April">April</option>
+                <option value="May">May</option>
+                <option value="June">June</option>
+                <option value="July">July</option>
+                <option value="August">August</option>
+                <option value="September">September</option>
+                <option value="October">October</option>
+                <option value="November">November</option>
+                <option value="December">December</option>
+              </select>
+            month</label>
+            <label for="year" class="year"><input type="number" id="year" max="2017" min="1900">year</label>
+
+          </p>
+        </fieldset>
+        <h2>Additional</h2>
+        <fieldset>
+          <p><label for="comments" class="comments">Comments</label><textarea placeholder="Yout text here" id="comments"></textarea></p>
+        </fieldset>
+        <h2>Subscription</h2>
+
+        <fieldset>
+          <p class="sub-checkbox"><input type="checkbox" id="webskola" name="webskola" value="w" checked><label for="webskola">Webskola news</label></p>
+          <p class="sub-checkbox"><input type="checkbox" id="digi" name="digi" value="d"><label for="digi">Digibrand news</label></p>
+        </fieldset>
+          <h2>Security code</h2>
+        <fieldset>
+          <p><label for="captcha" class="captcha-label" >Please type symbols shown on image</label></p>
+          <p class="captcha"><img src="captcha.png" alt="captcha"><input type="text" id="captcha"></p>
+        </fieldset>
+        <button type="submit">Send form</button>
+        <!-- <input type="submit"> -->
+      </form>
+    </div>
+  </body>
+</html>
