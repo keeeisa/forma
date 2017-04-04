@@ -116,6 +116,8 @@ input[type="checkbox" i]{
 }
 /*==============Captcha================*/
 .captcha{
+  display:-webkit-box;
+  display:-ms-flexbox;
   display:flex;
 }
 .captcha-label{
